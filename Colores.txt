@@ -1,0 +1,11 @@
+Principal
+#47DBA3
+
+Secundario
+#FF285E
+
+Oscuro
+#555555
+
+Claro
+#FFFFFF

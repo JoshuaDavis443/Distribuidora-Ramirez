@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/Logo/Favicon-01.png">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Distribuidora Ramirez</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="img/Logo/Favicon-white-02.png">
+        </figure>
+        <ul>
+            <li><a href="#">Producto</a></li>
+            <li><a href="#">Pedidos</a></li>
+        </ul>
+    </header>
+    <section class="hero">
+        <h1>Nuevo Pedido</h1>
+
+        <div class="row">
+            <form>
+                <!-- <label for="nombre">Nombre</label> -->
+                <input type="text" name="nombre" placeholder="Nombre">
+            </form>
+            <form>
+                <!-- <label for="telefono">Teléfono</label> -->
+                <input type="tel" name="telefono" placeholder="Teléfono">
+            </form>
+            <form>
+                <!-- <label for="direccion">Dirección</label> -->
+                <input type="text" name="direccion" placeholder="Dirección">
+            </form>
+        </div>
+        <div class="row">
+            <div class="orderDetails">
+                <label for="camaron" class="p1">Camarón</label>
+                <input type="text" name="camaron" placeholder="Cantidad">
+                <p class="p2">lb</p>
+            </div>
+            <div class="orderDetails">
+                <label for="colita" class="p1">Colita</label>
+                <input type="text" name="colita" placeholder="Cantidad">
+                <p class="p2">lb</p>
+            </div>
+            <div class="orderDetails">
+                <label for="filete" class="p1">Filete</label>
+                <input type="text" name="filete" placeholder="cantidad">
+                <p class="p2">lb</p>
+            </div>
+            <div class="orderDetails">
+                <label for="cabeza" class="p1">Cabeza</label>
+                <input type="text" name="cabeza" placeholder="cantidad">
+                <p class="p2">lb</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="orderDetails fish">
+                <label for="tilapia" class="p1">Tilapia</label>
+                <input type="text" name="cantidad" placeholder="Unidades">
+                <p class="p2">Unidades</p>
+                <input type="text" name="lb" placeholder="Cantidad">
+                <p class="p2">lb</p>
+            </div>
+            <div class="orderDetails fish">
+                <label for="colorada" class="p1">Boca Colorada</label>
+                <input type="text" name="colorada" placeholder="Unidades">
+                <p class="p2">Unidades</p>
+                <input type="text" name="cantidad" placeholder="Cantidad">
+                <p class="p2">lb</p>
+            </div>
+        </div>
+        <button>Guardar</button>
+    </section>
+
+    <footer>
+        Created width love by Mr. Joshi
+    </footer>
+</body>
+</html>

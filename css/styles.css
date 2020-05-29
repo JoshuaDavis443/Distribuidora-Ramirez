@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    background: rgb(157,255,218);
+    background: linear-gradient(-90deg, rgb(87, 252, 189) 0%, rgba(22,231,152,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    color: #FF285E;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Krona One', sans-serif;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Krona One', sans-serif;
+}
+
+.p1 {
+    font-size: 21px;
+}
+
+.p2 {
+    font-size: 16px;
+}
+
+.p3 {
+    font-size: 11px;
+}
+
+.hero {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.row {
+    display: flex;
+    width: min-content;
+    margin: 80px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+    width: 20vw;
+    outline: 0;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.orderDetails {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 20px;
+}
+
+.orderDetails label {
+    margin-right: 10px;
+    width: max-content;
+}
+
+.orderDetails input {
+    width: 10vw;
+}
+
+.orderDetails p {
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.fish input:nth-of-type(1) {
+    width: 15vw;
+}
+
+.fish p:nth-of-type(1) {
+    margin: 0 40px 0 -70px;
+}
+
+button {
+    width: 15vw;
+    text-align: center;
+    margin: 0 auto;
+    background: #FF285E;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    transition: 450ms all;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    .row {
+        display: block;
+    }
+
+    input {
+        width: 60vw;
+    }
+}
