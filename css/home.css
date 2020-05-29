@@ -12,21 +12,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-body::-webkit-scrollbar {
-    width: .4em;
-    height: .5em;
-}
-
-body::-webkit-scrollbar-track {
-    background: rgb(87, 252, 189);
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #FF285E;
-    outline: 1px solid rgb(87, 252, 189);
-    border-radius: 50px;
-}
-
 h1 {
     font-size: 4em;
     color: #FF285E;
