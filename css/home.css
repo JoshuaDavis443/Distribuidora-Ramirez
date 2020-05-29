@@ -6,7 +6,7 @@
 
 body {
     background: rgb(157,255,218);
-    background: linear-gradient(-90deg, rgb(87, 252, 189) 0%, rgba(22,231,152,1) 100%);
+    background: linear-gradient(-90deg, rgb(108, 252, 196) 0%, rgba(22,231,152,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
@@ -74,6 +74,10 @@ input {
     font-size: 16px;
 }
 
+#zone {
+    width: 7vw;
+}
+
 input::placeholder {
     color: white;
 }
@@ -131,7 +135,6 @@ footer {
     color: white;
 }
 
-/* Scrollbar missing */
 
 @media screen and (max-width: 900px) {
     .row {
@@ -140,5 +143,17 @@ footer {
 
     input {
         width: 60vw;
+    }
+
+    .orderDetails input {
+        width: 20vw;
+    }
+
+    .fish input:nth-of-type(1) {
+        width: 25vw;
+    }
+
+    button {
+        width: 35vw;
     }
 }

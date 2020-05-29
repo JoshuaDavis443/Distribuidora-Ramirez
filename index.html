@@ -41,53 +41,53 @@
 
         <div class="row">
             <form>
-                <!-- <label for="nombre">Nombre</label> -->
-                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" id="name" name="nombre" placeholder="Nombre">
             </form>
             <form>
-                <!-- <label for="telefono">Teléfono</label> -->
-                <input type="tel" name="telefono" placeholder="Teléfono">
+                <input type="tel" id="number" name="telefono" placeholder="Teléfono">
             </form>
             <form>
-                <!-- <label for="direccion">Dirección</label> -->
-                <input type="text" name="direccion" placeholder="Dirección">
+                <input type="text" id="direction" name="direccion" placeholder="Dirección">
+            </form>
+            <form>
+                <input type="text" id="zone" name="zona" placeholder="Zona">
             </form>
         </div>
         <div class="row">
             <div class="orderDetails">
                 <label for="camaron" class="p1">Camarón</label>
-                <input type="text" name="camaron" placeholder="Cantidad">
+                <input type="text" id="camaron" name="camaron" placeholder="Cantidad">
                 <p class="p2">lb</p>
             </div>
             <div class="orderDetails">
                 <label for="colita" class="p1">Colita</label>
-                <input type="text" name="colita" placeholder="Cantidad">
+                <input type="text" id="colita" name="colita" placeholder="Cantidad">
                 <p class="p2">lb</p>
             </div>
             <div class="orderDetails">
                 <label for="filete" class="p1">Filete</label>
-                <input type="text" name="filete" placeholder="cantidad">
+                <input type="text" id="filete" name="filete" placeholder="cantidad">
                 <p class="p2">lb</p>
             </div>
             <div class="orderDetails">
                 <label for="cabeza" class="p1">Cabeza</label>
-                <input type="text" name="cabeza" placeholder="cantidad">
+                <input type="text" id="cabeza" name="cabeza" placeholder="cantidad">
                 <p class="p2">lb</p>
             </div>
         </div>
         <div class="row">
             <div class="orderDetails fish">
                 <label for="tilapia" class="p1">Tilapia</label>
-                <input type="text" name="cantidad" placeholder="Unidades">
+                <input type="text" id="tilapiaUnits" name="cantidad" placeholder="Unidades">
                 <p class="p2">Unidades</p>
-                <input type="text" name="lb" placeholder="Cantidad">
+                <input type="text" id="tilapiaCant" name="lb" placeholder="Cantidad">
                 <p class="p2">lb</p>
             </div>
             <div class="orderDetails fish">
                 <label for="colorada" class="p1">Boca Colorada</label>
-                <input type="text" name="colorada" placeholder="Unidades">
+                <input type="text" id="bocaUnits" name="colorada" placeholder="Unidades">
                 <p class="p2">Unidades</p>
-                <input type="text" name="cantidad" placeholder="Cantidad">
+                <input type="text" id="bocaCant" name="cantidad" placeholder="Cantidad">
                 <p class="p2">lb</p>
             </div>
         </div>
@@ -98,6 +98,7 @@
         Created width love by Mr. Joshi
     </footer>
     
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/home.js"></script>
 </body>
 </html>
